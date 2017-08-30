@@ -1,0 +1,28 @@
+[debug] [2017-08-25T00:07:57.444Z] ----------------------------------------------------------------------
+[debug] [2017-08-25T00:07:57.444Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Tester\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-08-25T00:07:57.444Z] CLI Version:   3.9.2
+[debug] [2017-08-25T00:07:57.444Z] Platform:      win32
+[debug] [2017-08-25T00:07:57.444Z] Node Version:  v6.11.0
+[debug] [2017-08-25T00:07:57.444Z] Time:          Thu Aug 24 2017 18:07:57 GMT-0600 (Mountain Daylight Time)
+[debug] [2017-08-25T00:07:57.444Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-08-25T00:07:57.460Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-08-25T00:07:57.460Z] > authorizing via signed-in user
+[debug] [2017-08-25T00:07:57.460Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/resume-builder-ecdf3  
+ Thu Aug 24 2017 18:07:57 GMT-0600 (Mountain Daylight Time)
+[debug] [2017-08-25T00:07:58.272Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-25T00:07:58.288Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/resume-builder-ecdf3/tokens  
+ Thu Aug 24 2017 18:07:58 GMT-0600 (Mountain Daylight Time)
+[debug] [2017-08-25T00:07:58.694Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Tester\Documents\resume-builder\AngularFire'...
+[info] 
+[debug] [2017-08-25T00:07:58.710Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/resume-builder-ecdf3  
+ Thu Aug 24 2017 18:07:58 GMT-0600 (Mountain Daylight Time)
+[debug] [2017-08-25T00:07:59.132Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-25T00:07:59.132Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1049987968075/clients/_:getWebAppConfig  
+ Thu Aug 24 2017 18:07:59 GMT-0600 (Mountain Daylight Time)
+[debug] [2017-08-25T00:07:59.522Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+

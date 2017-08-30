@@ -1,0 +1,122 @@
+<html>
+   <head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="Resume Builder, Resumes, Online Resume, Resume Template">
+      <meta name="author" content="Brad Gutenberger">
+      <meta name="viewport" content="width = device-width, initial-scale = 1">
+      <link rel="icon" href="images/favicon.png">
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <link href="https://fonts.googleapis.com/css?family=Roboto:100,300" rel="stylesheet">
+      <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+      <title>Boisebrad</title>
+  </head>
+  <body>
+  
+    <!-- Navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only"></span>
+            <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="pull-left" href="#"><img src="favicon.png" class="img-responsive" style="max-height: 50px"></a>
+          </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+                <li><a href="#">About</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact Me <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Email Boisebrad@gmai.com</a></li>
+                    <li><a href="#">Phone 208-841-3052</a></li>
+                    </ul>
+                </li>
+              </ul>
+          </div><!-- /.navbar-collapse -->
+          </div>
+        </div><!-- /.container-fluid -->
+    </nav>
+    
+     <!-- Summary -->
+    <div class="container-fluid summary img-responsive" id="summary"></div>
+
+    <div class="container skills" id="skills">
+      <div class="row text-center">
+        <h1>Skills
+          <button class="btn btn-default pull-right" id="edit-skills">Edit</button>
+        </h1>
+        <ul class="list-unstyled list-inline" id="skills-list"></ul>
+      </div>
+    </div>
+    <!-- Experience -->
+    <div class="container-fluid experience" id="experience">
+      <div class="row">
+        <hr>
+        <h1 class="text-center">Experience</h1>
+      </div>
+    </div>
+    
+    <!-- Education -->
+    <div class="container-fluid education" id="education">
+      <div class="row">
+        <hr>
+        <h1 class="text-center">Education</h1>
+      </div>
+    </div>
+    
+    <!-- Contact -->
+    <div class="container contact" id="contact">
+      <div class="row">
+        <hr />
+        <h1 class="text-center">Contact</h1>
+      </div>
+      <div class="row">
+        <form>
+          <div class="col-md-6">
+            <div class="input-group">
+              <span class="input-group-addon" id="basic-addon1">
+                <span class="glyphicon glyphicon-user"></span>
+              </span>
+              <input type="text" class="form-control" placeholder="First Name" />
+            </div>
+            <div class="input-group">
+              <span class="input-group-addon" id="basic-addon2">
+                <span class="glyphicon glyphicon-user"></span>
+              </span>
+              <input type="text" class="form-control" placeholder="Last Name" />
+            </div>
+            <div class="input-group">
+              <span class="input-group-addon" id="basic-addon3">
+                <span class="glyphicon glyphicon-envelope"></span>
+              </span>
+              <input type="email" class="form-control" placeholder="Email" />
+            </div>
+            <div class="input-group">
+              <span class="input-group-addon" id="basic-addon4">
+                <span class="glyphicon glyphicon-phone-alt"></span>
+              </span>
+              <input type="text" class="form-control" placeholder="Phone" />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <textarea class="form-control" rows=6></textarea>
+            <button type="submit" class="btn btn-lg btn-primary pull-right">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    
+    
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="data.js"></script>
+    <script src="app/controllers/entries.ctrl.js"></script>
+    <script src="app/controllers/skills.ctrl.js"></script>
+    <script src="app/controllers/summary.ctrl.js"></script>
+    
+  </body>
+</html>

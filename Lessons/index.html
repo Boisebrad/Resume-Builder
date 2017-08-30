@@ -1,0 +1,202 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="A site that allows users to publish their site online">
+    <meta name="keywords" content="Resume Builder, Resumes, Online Resume, Resume Template">
+    <meta name="author" content="Zach Richardson">
+    <link rel="icon" href="favicon.png">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Resume Builder</title>
+  </head>
+  <body>
+    
+    <div class="container-fluid">
+      <div class="row">
+        <span class="h1">Inline Header 1 Class</span><span class="h2"> Inline Header 2 Class</span>
+        <h1>This is an example of <small>small</small> header text</h1>
+        <p class="lead">This is an exampole of a lead paragraph element.</p>
+
+
+        <!-- inline element -->
+        <p>
+          This is an example of <mark>highlighted</mark> text.<br>
+          This is an example of <del>deleted</del> text.<br>
+          This is an example of <s>strikethrough</s> text.<br>
+          This is an example of <ins>inserted</ins> text.<br>
+          This is an example of <u>underlined</u> text.<br>
+          This is an example of <small>small</small> text.<br>
+          This is an example of <i>italicized</i> text.<br>
+          This is an example of <b>bold</b> text.<br> 
+        </p>
+      
+        <!-- inline elements -->
+        <p class="text-left">This text is aligned left.</p>
+        <p class="text-center">This text is centered.</p>
+        <p class="text-right">This text is aligned right.</p>
+        <p class="text-justified">This text is justified.</p>
+        <p class="text-nowrap">This text has no wrap.</p>
+        
+        <!-- character casing -->
+        <p class="text-lowercase">THIS IS LOWERCASE TEXT.</p>
+        <p class="text-lowercase">this is uppercase text.</p>
+        <p class="text-capitalize">this is capitalized text.</p>
+        
+        <!-- blockquotes -->
+        <blockquote>
+          <p>This is an example of a block quote.</p>
+          <footer><cite title="Source Title">Example Source</cite></footer>
+        </blockquote>
+        <blockquote class="blockquote-reverse">
+          <p>This is an example of a reverse block quote.</p>
+          <footer><cite title="Source Title">Example Source</cite></footer>
+        </blockquote>
+
+
+         <div class="container-fluid">
+            <div class="row">
+        
+        <!-- unstyled list -->
+            <ul class="list-unstyled">
+                <li>First list item</li>
+                <li>Second list item</li>
+                <li>Third list item</li>
+            </ul>
+           <!-- inline list -->
+            <ul class="list-inline">
+              <li>First list item</li>
+              <li>Second list item</li>
+              <li>Third list item</li>
+            </ul>
+            
+            <!-- horizontal description list -->
+            <dl class="dl-horizontal">
+              <dt>Description List Term</dt>
+              <dd>
+                description list description that provides a supporting list description 
+                for the description term that immediately precedes it.
+              </dd>
+            </dl>    
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped table-hover table-condensed">
+                <thead>
+                  <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Mark</td>
+                    <td>Zuckerberg</td>
+                    <td>zucks@facebook.com</td>
+                  </tr>
+                  <tr>
+                    <td>Larry</td>
+                    <td>Page</td>
+                    <td>pageOne@google.com</td>
+                  </tr>
+                  <tr>
+                    <td>Bill</td>
+                    <td>Gates</td>
+                    <td>gatekeeper@microsoft.com</td>
+                  </tr>
+                </tbody>
+                </table>
+            </div>        
+        </div>
+    
+        <div class="container-fluid">
+          <div class="row">
+              <img src="https://i.imgflip.com/75dps.jpg" class="img-responsive center-block" width="500" alt="Winking Dog">
+              <img src="https://i.imgflip.com/75dps.jpg" width="500" alt="Winking Dog" class="img-circle">
+              <img src="https://i.imgflip.com/75dps.jpg" width="500" alt="Winking Dog" class="img-rounded">
+              <img src="https://i.imgflip.com/75dps.jpg" width="500" alt="Winking Dog" class="img-thumbnail">
+          </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <!-- button types -->
+                <button class="btn btn-default">Default</button>
+                <button class="btn btn-primary">Primary</button>
+                <button class="btn btn-success">Success</button>
+                <button class="btn btn-info">Info</button>
+                <button class="btn btn-warning">Warning</button>
+                <button class="btn btn-danger">Danger</button>
+                <button class="btn btn-link">Link</button>
+                
+                <!-- button sizes -->
+                <button class="btn btn-default btn-xs">Extra Small</button><br>
+                <button class="btn btn-default btn-sm">Small</button><br>
+                <button class="btn btn-default btn-lg">Large</button><br>
+                <button class="btn btn-default btn-block">Extra Small</button>
+                
+                <!-- disabled -->
+                <button class="btn btn-default btn-xs" disabled="disabled">Disabled</button><br>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+          <div class="row">
+            <form class="form-inline">
+              
+              <!-- Text Inputs -->
+              <div class="form-group">
+                <label for="exampleInputEmail">Email Address</label>
+                <input type="email" class="form-control" id="exampleInputEmail" placeholder="Email">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              </div>
+              
+              <!-- Checkboxes -->
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" value="option1">
+                  Checkbox Option 1
+                </label>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" value="option2">
+                  Checkbox Option 2
+                </label>
+              </div>
+              
+              <!-- Radio Buttons -->
+              <div class="radio-inline">
+                <label>
+                  <input type="radio" name="optionsRadio" id="radioOptions" value="option1">
+                  Radio Option 1
+                </label>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input type="radio" name="optionsRadio" id="radioOptions" value="option2">
+                  Radio Option 2
+                </label>
+              </div>
+              
+              <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>

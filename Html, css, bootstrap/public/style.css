@@ -1,0 +1,129 @@
+/* Global */
+body {
+	font-family: 'Roboto';
+	font-weight: 300;
+	color: #555;
+	margin: 0;
+}
+hr {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border: 1px solid rgba(0, 0, 255, 0.3);
+	width: 100%
+}
+
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+/* Contact */
+.contact {
+	margin-bottom: 50px;
+	width: 75%;
+}
+.contact form div {
+	display: inline-block;
+	width: 50%;
+}
+.contact input {
+	width: 100%;
+	font-size: 1.5em;
+}
+.contact textarea {
+	width: 100%;
+	font-size: 1.5em;
+}
+.contact button {
+	font-size: 1.5em;
+	float: right;
+	background-color: #00f;
+	border-radius: 4px;
+	border-color: #00f;
+	color: #fff;
+}
+.contact .message {
+	float: right;
+}
+
+/* Education */
+
+/* Entry */
+
+
+
+/* Experience */
+
+
+/* Navbar */
+
+/* Skills */
+#skills
+	li{
+		list-style-type: none;
+		background-color: #698b69;
+		color: #fff;
+		font-size: 1em;
+		padding: 10px 20px;
+		margin: 5px 10px;
+		border-radius: 8px;
+}
+.skills li .badge {
+	background-color: #fff;
+	color: #698b69;
+	font-size: 1em;
+	border-radius: 50%;
+}
+
+
+/* Summary */
+.summary{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 50%;
+	padding-top: 0%;
+	padding-bottom: 0%;
+	margin: 0px;
+}
+.summary .photo{
+	max-width: 90%;
+	max-height: auto;
+	
+
+}
+.summary .information{
+	
+	background: rgba(255, 255, 255, 0.5);
+	
+}
+.text-center {
+	float: center;
+	text-align: center;
+	width: 100%;
+	margin: 10px;
+}
+
+.jumbotron{
+	background-image: url(https://scontent-sea1-1.xx.fbcdn.net/v/t31.0-8/19024974_2002487333371160_4157140476321252058_o.jpg?oh=5ce062cd1d67a0520f481d83dde992b3&oe=59E5162B);
+	color:white;
+	background-attachment: fixed;
+	min-height: 300px;
+	margin-top: 0px;
+	margin-bottom: 8px;
+
+}
+	
+	
+
+}
+
+
+
+
+
+
+
+
